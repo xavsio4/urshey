@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import VueMasonryGallery from 'vue-masonry-gallery'
+import VueMasonryGallery from 'vue-masonry-gallery/vendor/VueMasonryGallery/VueMasonryGallery'
 
 export default {
   components: {
