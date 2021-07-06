@@ -2,13 +2,16 @@
   <div class="text-center w-full h-screen">
     <h2 class="text-3xl">Some photos</h2>
 
-    <vue-masonry-gallery :imgsArr="imgsArr" height="100%"></vue-masonry-gallery>
+    <VueMasonryGallery :imgsArr="imgsArr" height="100%"></VueMasonryGallery>
   </div>
 </template>
 <script>
 import VueMasonryGallery from 'vue-masonry-gallery'
 
 export default {
+  components: {
+    VueMasonryGallery,
+  },
   data() {
     return {
       imgsArr: [
